@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font: 'Oswald', sans-serif;
+    --normal: 300;
+    --bold: 400;
+    --bolder: 500;
+    --brown: #eb9f27;
+    --blue:#383fde;
+    --black:#000000;
+    --light-brown:#fde7af;
+}
+
+body{
+    background-image: url("/img/background.jpg");
+}
+
+.header__title{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.main{
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.theForm{
+    height: 30vh;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.theForm__searchField{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.theForm__searchField button{
+    cursor: pointer;
+    height: 30px;
+    width: 90px;
+    padding-right: 5px;
+    font-size: 1.2em;
+    font-family: var(--font);
+    font-weight: var(--bolder);
+    background-color: var(--brown);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.theForm__searchField button svg{
+    margin-right: 5px;
+}
+
+.searchField__input{
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    background-color: var(--light-brown);
+    width: 50vw;
+    height: 30px;
+}
+
+.searchField__input::placeholder{
+    font-family: var(--font);
+    font-size: 1.5em;
+    color: var(--blue);
+    opacity: 1;
+}
+
+.searchResults{
+    font-family: var(--font);
+    font-weight: var(--bolder);
+    font-size: 2em;
+}
+.searchResults__listItems a{
+    font-family: var(--font);
+    font-weight: var(--bold);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchResults__listItems p{
+    font-size: .6em;
+}
+
+.pItems, .wordOfTheDay__description{
+    color: white;
+}
+
+.visible{
+    color: red;
+}
+
+.mainFooterContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.wordOfTheDay h3{
+    display: flex;
+    font-size: 2em;
+    /* justify-content: center; */
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.wordOfTheDay__word {
+    margin-left: 20px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.wordOfTheDay__description{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.wordOfTheDay{
+    position: relative;
+    font-family: var(--font);
+    font-weight: var(--bolder);
+    height: 180px;
+    width: 440px;
+    border: rgba(0, 0, 0, 0.219) solid 4px;
+}
+
+.wordOfTheDay img{
+    position: absolute;
+    top: 40px;
+    left: 300px;
+    height: 100px;
+    width: 100px;
+}
+

@@ -1,0 +1,58 @@
+{
+    "words":[
+        {
+            "name": "art",
+            "description":"illegible nonsense snobs are interested in",
+            "image": "img/white.svg"
+
+        },
+        {
+            "name": "white",
+            "description": "opposite of black",
+            "image": "img/white.svg"
+        },
+        {
+            "name": "strange",
+            "description": "inexperienced",
+            "image": "img/strange.svg"
+
+        },
+        {
+            "name": "extraordinary",
+            "description": "extra boring",
+            "image": "img/star.svg"
+
+        },
+        {
+            "name": "basketball",
+            "description":"a round basket",
+            "image": "img/basketball.svg"
+
+        },
+        {
+            "name": "fare",
+            "description": "unfair ticketprice",
+            "image": "img/tickets.svg"
+
+        },
+        {
+            "name": "resist",
+            "description": "static training",
+            "image": "img/resist.svg"
+
+        },
+        {
+            "name": "whisper",
+            "description": "talking to close to  my ear",
+            "image": "img/whisper.svg"
+
+        },
+        {
+            "name": "tor",
+            "description": "tractor",
+            "image": "img/tractor.svg"
+
+        }
+
+    ]
+}
